@@ -1,0 +1,6 @@
+.pageblock {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%, 100%);
+}

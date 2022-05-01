@@ -1,0 +1,48 @@
+.container {
+  background-color: #fff;
+  width: 800px;
+  height: 740px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 3px 0px 15px 5px #5879d4;
+  position: relative;
+  top: 100px;
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.table {
+  margin-bottom: 50px;
+}
+
+.listtr:hover .link {
+  text-decoration: underline;
+  color: var(--bs-blue);
+}
+
+.searchwrap {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-gap: 5px;
+}
+
+.searchlabel {
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--bs-gray-600);
+}
+.link:hover {
+  text-decoration: underline;
+}
